@@ -526,6 +526,153 @@ nav li a{
 }
 
 
+/* Newsletter Section */
+
+.column-1{
+    border-radius: 1rem;
+    border: 1px solid #FF5400;
+    width: 29.625rem;
+    height: 26.375rem;
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.column-1 h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.column-1 p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    max-width: 21.875rem;
+    margin-bottom: 1.5rem;
+}
+
+.column-1 hr{
+    margin-bottom: 1.5rem;
+    width: 24.5625rem;
+    height: 0;
+    margin-left: 0;
+}
+
+.column-1 input{
+    border: 0px;
+    width: 24.5625rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 1rem;
+}
+
+.column-1 input[type=text], input[type=email]{
+    padding-left: 1.25rem;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.sub-btn{
+    margin-top: 1.5rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    width: 24.5625rem;
+    height: 3.25rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.newsletter-section{
+    display: flex;
+    gap: 1.5rem;
+    max-width: 74rem;
+    margin: auto;
+}
+
+.column-2 img{
+    width: 42rem;
+    height: 29rem;
+}
+
+.discount-btn{
+    border: 0;
+    border-radius: 1rem;
+    background: #FF5400;
+    width: 20.25rem;
+    height: 7.5rem;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    bottom: 10.7rem;
+    left: 21.3rem;
+}
+
+.save{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/* footer */
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    height: 31.375rem;
+}
+
+.footer-container{
+    max-width: 54.5rem;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding-top: 6.8rem;
+}
+
+.footer-title{
+    display: flex;
+    padding-left: 35%;
+    margin-bottom: 1rem;
+}
+
+#footer-logo-title{
+    margin-top: 0.3rem;
+}
+
+.footer-description{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    max-width: 48.0625rem;
+    margin-bottom: 2rem;
+}
+
+.social-links{
+    margin-bottom: 3.12rem;
+}
+
+.footer-container hr{
+    margin-bottom: 3.12rem;
+}
+
+
+
+
+
+
+
+
 
 /* Responsive Media Queries */
 
@@ -605,10 +752,6 @@ nav li a{
     .tour-section-description{
         margin-top: 1rem;
         margin-bottom: 1rem;
-    }
-
-    .tour-section-list{
-        height: 19rem;
     }
 
     .tour-section-img{
@@ -701,6 +844,7 @@ nav li a{
     .deals-title{
         font-size: 1.25rem;
         margin-bottom: 1rem;
+        margin-top: 1.5rem;
     }
 
     .deals-description{
@@ -770,4 +914,123 @@ nav li a{
         margin-left: 23%;
     }
 
+    /* Get Lost Section */
+
+    .get-lost-section{
+        flex-direction: column;
+        padding-left: 1.7rem;
+        margin-top: 1.5rem;
+    }
+
+    .get-section-texts h3{
+        max-width: 15.5rem;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        margin-top: 1.5rem;
+    }
+
+    .get-lost-section p{
+        max-width: 20.9375rem;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        padding-bottom: 0;
+    }
+
+    #get-sec-btn{
+        margin-top: 1.5px;
+        padding-right: 1.2rem;
+    }
+
+    .get-section-image img{
+        width: 20.9375rem;
+        height: 12.5rem;
+    }
+
+    .get-img-txt{
+        position: relative;
+        bottom: 8.5rem;
+        left: 0;
+        font-size: 1.25rem;
+        max-width: 17.25rem;
+        line-height: 1.875rem;
+    }
+
+    /* newsletter */
+
+    .newsletter-section{
+        flex-direction: column;
+    }
+
+    .column-1{
+        margin-left: 1.8rem;
+        width: 18.5rem;
+        padding-left: 2rem;
+    }
+
+    .column-1 p{
+        max-width: 16.875rem;
+    }
+
+    .column-1 hr{
+        width: 16.5rem;
+    }
+
+    .column-1 input{
+        max-width: 15.5rem;
+    }
+
+    .sub-btn{
+        width: 16.5rem;
+    }
+
+    .column-2 img{
+        width: 20.9375rem;
+        height: 18.75rem;
+        padding-left: 1.8rem;
+    }
+    
+    .discount-btn{
+        width: 13.37644rem;
+        height: 4.95425rem;
+        font-size: 0.99088rem;
+        position: relative;
+        bottom: 7rem;
+        left: 9.2rem;
+    }
+
+    .save{
+        font-size: 1.32113rem;
+    }
+
+    /* footer */
+    .footer{
+        height: 25rem;
+    }
+
+    .footer-container{
+        padding-top: 2.8rem;
+    }
+
+    .footer-title{
+        padding-left: 28%;
+    }
+
+    #footer-logo-title{
+        margin-top: 1rem;
+    }
+
+    .footer-description{
+        max-width: 17.9375rem;
+        padding-left: 4rem;
+        text-align: left;
+    }
+
+    .social-links{
+        margin-bottom: 1rem;
+    }
+
+    .footer-container hr{
+        max-width: 20rem;
+        margin-bottom: 1.5rem;
+    }
 }
