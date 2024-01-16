@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+/* Header Styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    max-width: 73.125rem;
+}
+
+nav ul, nav div{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 2.75rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #424247;
+}
+
+.site-logo{
+    margin-right: 1.04rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.site-title{
+    color: #131318;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.title-style{
+    color: #FF5400;
+}
+
+.orange-style{
+    color: #FF5400;
+    font-weight: 700;
+}
+
+/* Banner Styles */
+
+.banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+    url('../resources/Group\ 13\ \(1\)\ \(1\).png');
+    width: 73.125rem;
+    height: 31.25rem;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.banner-content{
+    max-width: 50rem;
+    text-align: center;
+    margin: auto;
+    padding-top: 6.62rem;
+}
+
+.banner-title{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.banner-description{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 42.25rem;
+    margin-bottom: 3rem;
+    position: relative;
+    left: 4rem;
+}
+
+.inputs{
+    border: 1rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: .3rem;
+}
+
+.inputs input{
+    width: 10.875rem;
+    height: 3.25rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background: #FFF;
+}
+
+.inputs button{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 0;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    width: 10.875rem;
+    height: 3.25rem;
+}
+
+.inputs > input{
+    margin-right: 1.3rem;
+}
+
+.inputs input[type=text]{
+    color: rgba(19, 19, 24, 0.50);
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.dropdown{
+    display: flex;
+}
+
+.dropdown select{
+    border: 0;
+    border-radius: 0 0.5rem 0.5rem 0;
+    height: 3rem;
+    position: relative;
+    top: 3px;
+    right: 35px;
+
+}
+
+/* Popular Tours Section */
+
+.tour-section{
+    display: flex;
+    margin: auto;
+    margin-top: 6.25rem;
+    max-width: 73.125rem;
+}
+
+.tour-section-container{
+    max-width: 36rem;
+}
+
+.tour-section-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.tour-section-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tour-section-list{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    line-height: 1.625rem;
+}
+
+.tour-section-paragraph{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.orange-btn{
+    width: 10.875rem;
+    height: 3.25rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.tour-section-img{
+    padding-left: 3.31rem;
+}
+
+
+/* Choose Destination Section */
+
+.dest-section{
+    margin: auto;
+}
+
+.dest-section-title{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 6.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.dest-section-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    max-width: 40.1875rem;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.dest-section-img{
+    max-width: 73.125rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: auto;
+}
+
+/* .img-texts{
+    color: #cc0c0c;
+    font-size: 28px;
+    font-weight: 800;
+    display: flex;
+}
+
+.Maldives{
+    position: relative;
+    left: 30%;
+    bottom: 52rem;
+} */
+
+
+
+/* Why Choose Us Section */
+
+.why-choose-title{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 6.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.why-choose-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    max-width: 40.1875rem;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.card-row-1{
+    display: flex;
+    gap: 1.5rem;
+    max-width: 78rem;
+    margin: auto;
+}
+
+.card-img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 2rem;
+}
+
+.card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.card-description{
+    max-width: 30.375rem;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.card-1{
+    width: 35.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    align-items: center;
+    text-align: left;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-2{
+    width: 35.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    align-items: center;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.card-3{
+    max-width: 35.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    align-items: center;
+    text-align: left;
+    padding-left: 2rem;
+    margin: auto;
+}
+
+
+
+
+/* Responsive Media Queries */
+
+@media screen and (max-width: 600px) {  
+ 
+/* header */
+    
+    .site-title{
+        font-size: 1.34644rem;
+    }
+    
+    .site-logo{
+        margin-right: 0.63rem;
+    }
+    
+    nav{
+        max-width: 20.93rem;
+        margin-bottom: 1rem;
+        background-image: url('../resources/Frame.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+        position: relative;
+        right: auto;
+    }
+    
+    ul li{
+        display: none;
+    }
+
+    ul li{
+        background-image: url('../resources/Frame.svg');
+    }
+
+    .banner{
+        width: 20.9375rem;
+        background-position: center
+    }
+
+    .banner-content{
+        padding-top: 2rem;
+    }
+
+    .banner-title{
+        font-size: 1.375rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .banner-description{
+        font-size: 0.875rem;
+        max-width: 19rem;
+        position: relative;
+        left: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .inputs{
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 1.2rem;
+        padding-left: 1.2rem;
+        padding-bottom: 1.2rem;
+        padding-right: 0;
+    }
+
+/* Popular Tours Section */
+    .tour-section{
+        flex-direction: column;
+        margin: auto;
+        margin-top: 1.5rem;
+        max-width: 20.93rem;
+    }
+
+    .tour-section-title{
+        font-size: 1.25rem;
+    }
+
+    .tour-section-description{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .tour-section-list{
+        height: 19rem;
+    }
+
+    .tour-section-img{
+        padding-left: 0;
+    }
+
+    .tour-section-img img{
+        width: 20.9375rem;
+        height: 21.375rem;
+        margin-top: 1.5rem;
+    }
+
+    /* Choose Destination Section */
+    .dest-section-title{
+        font-size: 1.25rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .dest-section-description{
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+        max-width: 19.3rem;
+    }
+
+    .dest-section-img{
+        flex-direction: column;
+        gap: 1rem;
+        max-width: 20.94rem;
+
+    }
+
+    .dest-section-img img {
+        width: 20.9375rem;
+        height: 11rem;
+    }
+
+    /* Why Choose Us Section */
+
+    .why-choose-title{
+        font-size: 1.25rem;
+        margin-top: 1.5rem;
+    }
+
+    .why-choose-description{
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        max-width: 19.3125rem;
+        margin-bottom: 1rem;
+    }
+
+    .card-img{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .card-title{
+        font-size: 1.25rem;
+    }
+
+    .card-description{
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        max-width: 16.9375rem;
+    }
+
+    .card-1, .card-2, .card-3{
+        max-width: 20.9375rem;
+        margin: auto;
+        /* height: 18.0625rem; */
+    }
+
+    .card-row-1{
+        flex-direction: column;
+    }
+
+    .card-1{
+        margin: 0;
+        max-width: 20.9375rem;
+        margin: auto;
+    }
+
+    .card-2{
+        margin-bottom: 1.5rem;
+    }
+}
