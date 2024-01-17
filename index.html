@@ -9,18 +9,24 @@
 </head>
 
 <body>
-    <!-- Header Section -->
+    <!-- Header Section (C) -->
     <header>
-        <nav>
-            <div>
+        <nav> <!--The navigation bar-->
+            <div> <!-- The site title and logo -->
                 <img class="site-logo" src="resources/Group 40071 (2).png" alt="Website Logo">
                 <h3 class="site-title">
                     Trip <span class="title-style">Finder</span>
                 </h3>
             </div>
 
-            <ul>
-                <li><a href=""><span class="orange-style">Home</span></a></li>
+            <ul> <!-- Navigation bar options -->
+                <li>
+                    <a href="">
+                        <span id="nav-home" class="orange-style">
+                            Home
+                        </span>
+                    </a>
+                </li>
                 <li><a href="">Packages</a></li>
                 <li><a href="">Testimonial</a></li>
                 <li><a href="">Blog</a></li>
@@ -45,7 +51,12 @@
                         <input type="text" placeholder="Select Type">
                         <select name="" id=""></select>
                     </div>
-                    <button>Find Now</button>
+                    <button id="find-now-button">
+                        <div class="btn-elements">
+                            <img src="/resources/search.svg" alt="">
+                            <p>Find Now</p>
+                        </div>
+                    </button>
 
                 </div>
             </div>
@@ -53,38 +64,48 @@
 
     </header>
 
+
+
     <main>
-        <!-- Popular Tours Section -->
+        <!-- Our Popular Tours Section -->
+        <!-- ul disappears in mobile view -->
         <section class="tour-section">
-            <div class="tour-section-container">
+            <div class="tour-section-container"> <!-- texts container -->
                 <h3 class="tour-section-title">Our Popular Tours</h3>
                 <p class="tour-section-description">
                     Explore breathtaking destinations with Our Popular Tours. Unforgettable experiences, expert guides, and seamless adventures await. Book your escape now!.
                 </p>
-                <ul class="tour-section-list">
-                    <li>
-                        Explore breathtaking destinations with Our Popular Tours. Unforgettable experiences, expert guides, and seamless adventures await. Book your escape now!
-                    </li>
-                    <li>
-                        Embark on endless adventures with Explore Your Travel! Discover new destinations, create lasting memories, and redefine your journey today
-                    </li>
-                    <li>
-                        Explore breathtaking destinations with Our Popular Tours. Unforgettable experiences, expert guides, and seamless adventures await. Book your escape now!.
-                    </li>           
-                </ul>
+                <div class="tour-section-list">
+                    <ul>
+                        <li>
+                            Discover serenity in our 'A Simple Perfect Place To Get Lost' section—a haven of tranquility, inspiration, and delightful escapes.
+                        </li>
+                        <li>
+                            Embark on endless adventures with Explore Your Travel! Discover new destinations, create lasting memories, and redefine your journey today
+                        </li>
+                        <li>
+                            Limitless possibilities! Select your ideal destination and embark on unforgettable journeys with our Choose Your Destination feature.
+                        </li>           
+                    </ul>
+                </div>
                 <p class="tour-section-paragraph">
-                    Embark on endless adventures with Explore Your Travel! Discover new destinations, create lasting memories, and redefine your journey today 
+                    Find serenity in our tranquil haven – A Simple Perfect Place To Get Lost. Embrace solitude and find your escape here. 
                 </p>
-                <button class="orange-btn">Read More</button>
+                <button id="tour-section-btn" class="orange-btn">
+                    Read More
+                </button>
             </div>
-            <div class="tour-section-img">
+
+            <div class="tour-section-img"> <!-- image container -->
                 <img src="/resources/Rectangle 4.png" alt="">
             </div>
         </section>
 
-        <!-- Choose Destination Section -->
+
+
+        <!-- Choose Your Destination Section (C) -->
         <section class="dest-section">
-            <div class="dest-section-container">
+            <div class="dest-section-container"> <!-- texts container -->
                 <h3 class="dest-section-title">
                     Choose Your Destination
                 </h3>
@@ -93,28 +114,41 @@
                 </p>
             </div>
             
-            <div class="dest-section-img">
-                <div><img src="/resources/Rectangle 5.png" alt=""></div>
-                <div><img src="/resources/Rectangle 8.png" alt=""></div>
-                <div><img src="/resources/Rectangle 6.png" alt=""></div>
-                <div><img src="/resources/Rectangle 7.png" alt=""></div>
-                <div><img src="/resources/Rectangle 9.png" alt=""></div>
-                <div><img src="/resources/Rectangle 11.png" alt=""></div>
-                <div><img src="/resources/Rectangle 10.png" alt=""></div>
+            <div class="dest-section-img"> <!-- image container -->
+                <div class="dest-img">
+                    <img src="/resources/Rectangle 5.png" alt="">
+                    <p>Maldives</p>
+                </div>
+                <div class="dest-img">
+                    <img src="/resources/Rectangle 8.png" alt="">
+                    <p>Indonesia</p>
+                </div>
+                <div class="dest-img">
+                    <img src="/resources/Rectangle 6.png" alt="">
+                    <p>Srilanka</p>
+                </div>
+                <div class="dest-img">
+                    <img src="/resources/Rectangle 7.png" alt="">
+                    <p>North America</p>
+                </div>
+                <div class="dest-img">
+                    <img src="/resources/Rectangle 9.png" alt="">
+                    <p>Kashmir</p>
+                </div>
+                <div class="dest-img">
+                    <img src="/resources/Rectangle 11.png" alt="">
+                    <p>Bangladesh</p>
+                </div>
+                <div class="dest-img">
+                    <img src="/resources/Rectangle 10.png" alt="">
+                    <p>Bandarban</p>
+                </div>
             </div>
-
-            <!-- <div class="img-texts">
-                <p class="Maldives">Maldives</p>
-                <p class="Indonesia">Indonesia</p>
-                <p class="Srilanka">Srilanka</p>
-                <p class="North-America">North America</p>
-                <p class="Kashmir">Kashmir</p>
-                <p class="Bangladesh">Bangladesh</p>
-                <p class="Bandarban">Bandarban</p>
-            </div> -->
         </section>
 
-        <!-- Why Choose Us Section -->
+
+
+        <!-- Why Choose Us Section (C) -->
         <section class="why-choose-section">
             <div >
                 <h3 class="why-choose-title">Why Choose Us</h3>
@@ -155,7 +189,9 @@
 
         </section>
 
-        <!-- Deals and Discounts Section -->
+
+
+        <!-- Deals and Discounts Section (C) -->
         <section class="deals-discount-section">
             <div class="deals-text">
                 <h3 class="deals-title">Deals & Discounts</h3>
@@ -177,7 +213,7 @@
 
                     <div class="deal-texts">
                         <h3 class="card-title">Tour To Satorini</h3>
-                        <p class="card-description">
+                        <p id="deal-card-description-1" class="card-description">
                             Discover serenity in our 'A Simple Perfect Place To Get Lost' section—a haven of tranquility, inspiration, and delightful escapes.
                         </p>
                         <p class="card-price">Price: $1300-$1500</p>
@@ -200,13 +236,15 @@
 
                     <div class="deal-texts">
                         <h3 class="card-title">Tour To Satorini</h3>
-                        <p class="card-description">
+                        <p id="deal-card-description-2" class="card-description">
                             Discover serenity in our 'A Simple Perfect Place To Get Lost' section—a haven of tranquility, inspiration, and delightful escapes.
                         </p>
                         <p class="card-price">Price: $1300-$1500</p>
                     </div>
                         
-                    <button class="orange-btn" id="deal-orange-btn">Book Now</button>
+                    <button class="orange-btn" id="deal-orange-btn-2">
+                        Book Now
+                    </button>
 
                 </div>
             </div>
@@ -223,7 +261,7 @@
 
                     <div class="deal-texts">
                         <h3 class="card-title">Tour To Satorini</h3>
-                        <p class="card-description">
+                        <p id="deal-card-description-3" class="card-description">
                             Discover serenity in our 'A Simple Perfect Place To Get Lost' section—a haven of tranquility, inspiration, and delightful escapes.
                         </p>
                         <p class="card-price">Price: $1300-$1500</p>
@@ -237,6 +275,8 @@
                 <button class="see-package-btn">See All Packages</button>
             </div>
         </section>
+
+
 
         <!-- Get Lost Section -->
         <section class="get-lost-section">
@@ -260,8 +300,18 @@
                 <p class="get-img-txt">
                     Watch Our Mountain in Bangladesh
                 </p>
+                <div class="video-options">
+                    <img src="/resources/pause.png" alt="">
+                    <img class="zero" src="/resources/0.00.png" alt="">
+                    <img src="/resources/volume-x 1.png" alt="">
+                    <img class="max" src="/resources/maximize 1.png" alt="">
+                    <img src="/resources/dot.png" alt="">
+                    <img src="/resources/bar.png" alt="">
+                </div>
             </div>
         </section>
+
+
 
         <!-- Newsletter Section -->
         <section class="newsletter-section">
@@ -285,6 +335,8 @@
             </div>
         </section>
     </main>
+
+
 
     <footer class="footer">
         <div class="footer-container">
